@@ -30,12 +30,14 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:subject id="subject-1">Short stories</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1743</meta>
+		<dc:subject id="subject-2">Science fiction, English</dc:subject>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/11870</meta>
+		<meta property="se:subject">Shorts</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A collection of short stories by H. G. Wells in a variety of genres ordered by date of publication.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
 			LONGDESCRIPTION
@@ -43,51 +45,211 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>LANG</dc:language>
 		<dc:source>LINK</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">Don't let modernize-spelling change "girl friend" to "girlfriend" in "The Door in the Wall": "girlfriend" as one word has romantic associations which are inappropriate here.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Short_fiction</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_short-fiction</meta>
 		<dc:creator id="author">H. G. Wells</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Wells, H. G.</meta>
+		<meta property="se:name.person.full-name" refines="#author">Herbert George Wells</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._G._Wells</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79063613</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Henry Alexander</dc:contributor>
+		<meta property="file-as" refines="#artist">Alexander, Henry</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Henry_Alexander_(painter)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr2004033824</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+
+		<dc:contributor id="transcriber-1">Chris Curnow</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Curnow, Chris</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="transcriber-2">Lindy Walsh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Walsh, Lindy</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Stephen Blundell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Blundell, Stephen</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-5">Aaron Cannon</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Cannon, Aaron</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-6">Stephanie Johnson</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Johnson, Stephanie</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-7">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Widger, David</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-8">Paul Murray</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Murray, Paul</meta>
+		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-9">Charles Bidwell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Bidwell, Charles</meta>
+		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="transcriber-10">eagkw</dc:contributor>
+		<meta property="file-as" refines="#transcriber-10">eagkw</meta>
+		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
+
+		<dc:contributor id="producer-1">Kenneth Williams</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://scriptdaemon.me</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">bkp</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">blw</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">tyg</meta>
+
+		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-3">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
-		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/a-catastrophe.xhtml" id="a-catastrophe.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-deal-in-ostriches.xhtml" id="a-deal-in-ostriches.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-dream-of-armageddon.xhtml" id="a-dream-of-armageddon.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-slip-under-the-microscope.xhtml" id="a-slip-under-the-microscope.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-story-of-the-days-to-come.xhtml" id="a-story-of-the-days-to-come.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-story-of-the-stone-age.xhtml" id="a-story-of-the-stone-age.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-vision-of-judgment.xhtml" id="a-vision-of-judgment.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/aepyornis-island.xhtml" id="aepyornis-island.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/filmer.xhtml" id="filmer.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/in-the-abyss.xhtml" id="in-the-abyss.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/in-the-avu-observatory.xhtml" id="in-the-avu-observatory.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/jimmy-goggles-the-god.xhtml" id="jimmy-goggles-the-god.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/miss-winchelseas-heart.xhtml" id="miss-winchelseas-heart.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mr-brishers-treasure.xhtml" id="mr-brishers-treasure.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mr-ledbetters-vacation.xhtml" id="mr-ledbetters-vacation.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/mr-skelmersdale-in-fairyland.xhtml" id="mr-skelmersdale-in-fairyland.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/pollock-and-the-porroh-man.xhtml" id="pollock-and-the-porroh-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-apple.xhtml" id="the-apple.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-argonauts-of-the-air.xhtml" id="the-argonauts-of-the-air.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-beautiful-suit.xhtml" id="the-beautiful-suit.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-cone.xhtml" id="the-cone.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-country-of-the-blind.xhtml" id="the-country-of-the-blind.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-crystal-egg.xhtml" id="the-crystal-egg.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-diamond-maker.xhtml" id="the-diamond-maker.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-door-in-the-wall.xhtml" id="the-door-in-the-wall.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-empire-of-the-ants.xhtml" id="the-empire-of-the-ants.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-flowering-of-the-strange-orchid.xhtml" id="the-flowering-of-the-strange-orchid.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-flying-man.xhtml" id="the-flying-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-hammerpond-park-burglary.xhtml" id="the-hammerpond-park-burglary.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-jilting-of-jane.xhtml" id="the-jilting-of-jane.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-lord-of-the-dynamos.xhtml" id="the-lord-of-the-dynamos.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-lost-inheritance.xhtml" id="the-lost-inheritance.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-magic-shop.xhtml" id="the-magic-shop.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-man-who-could-work-miracles.xhtml" id="the-man-who-could-work-miracles.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-moth.xhtml" id="the-moth.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-new-accelerator.xhtml" id="the-new-accelerator.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-obliterated-man.xhtml" id="the-obliterated-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-plattner-story.xhtml" id="the-plattner-story.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-purple-pileus.xhtml" id="the-purple-pileus.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-red-room.xhtml" id="the-red-room.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-remarkable-case-of-davidsons-eyes.xhtml" id="the-remarkable-case-of-davidsons-eyes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-sea-raiders.xhtml" id="the-sea-raiders.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-star.xhtml" id="the-star.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-stolen-bacillus.xhtml" id="the-stolen-bacillus.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-stolen-body.xhtml" id="the-stolen-body.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-story-of-the-inexperienced-ghost.xhtml" id="the-story-of-the-inexperienced-ghost.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-story-of-the-late-mr-elvesham.xhtml" id="the-story-of-the-late-mr-elvesham.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-temptation-of-harringay.xhtml" id="the-temptation-of-harringay.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-treasure-in-the-forest.xhtml" id="the-treasure-in-the-forest.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-triumphs-of-a-taxidermist.xhtml" id="the-triumphs-of-a-taxidermist.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-truth-about-pyecraft.xhtml" id="the-truth-about-pyecraft.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-valley-of-spiders.xhtml" id="the-valley-of-spiders.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/through-a-window.xhtml" id="through-a-window.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/under-the-knife.xhtml" id="under-the-knife.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="in-the-modern-vein.xhtml"/>
+		<itemref idref="the-triumphs-of-a-taxidermist.xhtml"/>
+		<itemref idref="the-stolen-bacillus.xhtml"/>
+		<itemref idref="the-hammerpond-park-burglary.xhtml"/>
+		<itemref idref="the-jilting-of-jane.xhtml"/>
+		<itemref idref="the-flowering-of-the-strange-orchid.xhtml"/>
+		<itemref idref="in-the-avu-observatory.xhtml"/>
+		<itemref idref="the-diamond-maker.xhtml"/>
+		<itemref idref="the-treasure-in-the-forest.xhtml"/>
+		<itemref idref="through-a-window.xhtml"/>
+		<itemref idref="the-lord-of-the-dynamos.xhtml"/>
+		<itemref idref="aepyornis-island.xhtml"/>
+		<itemref idref="a-deal-in-ostriches.xhtml"/>
+		<itemref idref="the-flying-man.xhtml"/>
+		<itemref idref="the-temptation-of-harringay.xhtml"/>
+		<itemref idref="the-moth.xhtml"/>
+		<itemref idref="the-remarkable-case-of-davidsons-eyes.xhtml"/>
+		<itemref idref="a-catastrophe.xhtml"/>
+		<itemref idref="pollock-and-the-porroh-man.xhtml"/>
+		<itemref idref="the-cone.xhtml"/>
+		<itemref idref="the-argonauts-of-the-air.xhtml"/>
+		<itemref idref="a-slip-under-the-microscope.xhtml"/>
+		<itemref idref="under-the-knife.xhtml"/>
+		<itemref idref="the-red-room.xhtml"/>
+		<itemref idref="the-plattner-story.xhtml"/>
+		<itemref idref="the-story-of-the-late-mr-elvesham.xhtml"/>
+		<itemref idref="in-the-abyss.xhtml"/>
+		<itemref idref="the-apple.xhtml"/>
+		<itemref idref="the-sea-raiders.xhtml"/>
+		<itemref idref="the-crystal-egg.xhtml"/>
+		<itemref idref="the-lost-inheritance.xhtml"/>
+		<itemref idref="a-story-of-the-stone-age.xhtml"/>
+		<itemref idref="a-story-of-the-days-to-come.xhtml"/>
+		<itemref idref="the-star.xhtml"/>
+		<itemref idref="the-man-who-could-work-miracles.xhtml"/>
+		<itemref idref="miss-winchelseas-heart.xhtml"/>
+		<itemref idref="mr-ledbetters-vacation.xhtml"/>
+		<itemref idref="the-stolen-body.xhtml"/>
+		<itemref idref="jimmy-goggles-the-god.xhtml"/>
+		<itemref idref="mr-brishers-treasure.xhtml"/>
+		<itemref idref="a-vision-of-judgment.xhtml"/>
+		<itemref idref="a-dream-of-armageddon.xhtml"/>
+		<itemref idref="the-new-accelerator.xhtml"/>
+		<itemref idref="filmer.xhtml"/>
+		<itemref idref="mr-skelmersdale-in-fairyland.xhtml"/>
+		<itemref idref="the-valley-of-spiders.xhtml"/>
+		<itemref idref="the-truth-about-pyecraft.xhtml"/>
+		<itemref idref="the-magic-shop.xhtml"/>
+		<itemref idref="the-country-of-the-blind.xhtml"/>
+		<itemref idref="the-obliterated-man.xhtml"/>
+		<itemref idref="the-story-of-the-inexperienced-ghost.xhtml"/>
+		<itemref idref="the-door-in-the-wall.xhtml"/>
+		<itemref idref="a-moonlight-fable.xhtml"/>
+		<itemref idref="the-empire-of-the-ants.xhtml"/>
+		<itemref idref="the-beautiful-suit.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
