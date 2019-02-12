@@ -39,12 +39,22 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A collection of short stories by H. G. Wells in a variety of genres ordered by date of publication.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;H. G. Wells is probably best known for his imaginative longer works such as his novels &lt;a href="https://standardebooks.org/ebooks/h-g-wells/the-war-of-the-worlds"&gt;&lt;i&gt;The War of the Worlds&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/h-g-wells/the-invisible-man"&gt;&lt;i&gt;The Invisible Man&lt;/i&gt;&lt;/a&gt;, but he was also a prolific short story writer. This Standard Ebooks edition of his short fiction includes fifty-five of Wells’ stories, written between 1894 and 1909 and compiled from the collections &lt;i&gt;The Stolen Bacillus and Other Incidents&lt;/i&gt; (1895), &lt;i&gt;The Plattner Story and Others&lt;/i&gt; (1897), &lt;i&gt;Tales of Time and Space&lt;/i&gt; (1899), &lt;i&gt;Twelve Stories and a Dream&lt;/i&gt; (1903) and &lt;i&gt;The Country of the Blind and Other Stories&lt;/i&gt; (1911). They are presented here in approximate order of first publication.&lt;/p&gt;
+			&lt;p&gt;The stories vary wildly in genre and theme, ranging from tales of domestic romance, through ghost stories and tropical adventures, to far-future science fiction. Interestingly, many of the stories deal with the exciting but also frightening prospect of heavier-than-air flight and aerial warfare, and it is worth noting that these stories were written some years before the Wright brothers first took to the air.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/11870</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/27365</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/42989</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/12750</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1743</dc:source>
+		<dc:source>https://archive.org/details/countryofblindot00welluoft</dc:source>
+		<dc:source>https://archive.org/details/talesofspacetime00well</dc:source>
+		<dc:source>https://archive.org/details/plattnerstoryoth00wellrich</dc:source>
+		<dc:source>https://archive.org/details/twelvestoriesand00well</dc:source>
+		<dc:source>https://archive.org/details/stolenbacillusan00welluoft</dc:source>
 		<meta property="se:production-notes">Don't let modernize-spelling change "girl friend" to "girlfriend" in "The Door in the Wall": "girlfriend" as one word has romantic associations which are inappropriate here.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
@@ -56,51 +66,43 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._G._Wells</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79063613</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Henry Alexander</dc:contributor>
 		<meta property="file-as" refines="#artist">Alexander, Henry</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Henry_Alexander_(painter)</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr2004033824</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-
-		<dc:contributor id="transcriber-1">Chris Curnow</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Curnow, Chris</meta>
+		<dc:contributor id="transcriber-1">Charles Bidwell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Bidwell, Charles</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Lindy Walsh</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Walsh, Lindy</meta>
+		<dc:contributor id="transcriber-2">Stephen Blundell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Blundell, Stephen</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Stephen Blundell</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Blundell, Stephen</meta>
+		<dc:contributor id="transcriber-3">Aaron Cannon</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Cannon, Aaron</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-
-		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
-		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
+		<dc:contributor id="transcriber-4">Chris Curnow</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Curnow, Chris</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-
-		<dc:contributor id="transcriber-5">Aaron Cannon</dc:contributor>
-		<meta property="file-as" refines="#transcriber-5">Cannon, Aaron</meta>
+		<dc:contributor id="transcriber-5">eagkw</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">eagkw</meta>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
-
 		<dc:contributor id="transcriber-6">Stephanie Johnson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-6">Johnson, Stephanie</meta>
 		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
-
-		<dc:contributor id="transcriber-7">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-7">Widger, David</meta>
+		<dc:contributor id="transcriber-7">Paul Murray</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Murray, Paul</meta>
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
-
-		<dc:contributor id="transcriber-8">Paul Murray</dc:contributor>
-		<meta property="file-as" refines="#transcriber-8">Murray, Paul</meta>
+		<dc:contributor id="transcriber-8">Lindy Walsh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Walsh, Lindy</meta>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
-
-		<dc:contributor id="transcriber-9">Charles Bidwell</dc:contributor>
-		<meta property="file-as" refines="#transcriber-9">Bidwell, Charles</meta>
+		<dc:contributor id="transcriber-9">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Widger, David</meta>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
-
-		<dc:contributor id="transcriber-10">eagkw</dc:contributor>
-		<meta property="file-as" refines="#transcriber-10">eagkw</meta>
+		<dc:contributor id="transcriber-10">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-10">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-10">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
-
 		<dc:contributor id="producer-1">Kenneth Williams</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://scriptdaemon.me</meta>
@@ -110,7 +112,6 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
@@ -120,7 +121,6 @@
 		<meta property="role" refines="#producer-2" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">tyg</meta>
-
 		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-3">https://alexcabal.com</meta>
@@ -130,7 +130,9 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/a-catastrophe.xhtml" id="a-catastrophe.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-deal-in-ostriches.xhtml" id="a-deal-in-ostriches.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/a-dream-of-armageddon.xhtml" id="a-dream-of-armageddon.xhtml" media-type="application/xhtml+xml"/>
@@ -145,6 +147,7 @@
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/in-the-abyss.xhtml" id="in-the-abyss.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/in-the-avu-observatory.xhtml" id="in-the-avu-observatory.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/in-the-modern-vein.xhtml" id="in-the-modern-vein.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/jimmy-goggles-the-god.xhtml" id="jimmy-goggles-the-god.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/miss-winchelseas-heart.xhtml" id="miss-winchelseas-heart.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/mr-brishers-treasure.xhtml" id="mr-brishers-treasure.xhtml" media-type="application/xhtml+xml"/>
@@ -222,6 +225,7 @@
 		<itemref idref="the-story-of-the-late-mr-elvesham.xhtml"/>
 		<itemref idref="in-the-abyss.xhtml"/>
 		<itemref idref="the-apple.xhtml"/>
+		<itemref idref="the-purple-pileus.xhtml"/>
 		<itemref idref="the-sea-raiders.xhtml"/>
 		<itemref idref="the-crystal-egg.xhtml"/>
 		<itemref idref="the-lost-inheritance.xhtml"/>
