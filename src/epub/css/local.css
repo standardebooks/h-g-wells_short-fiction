@@ -1,2 +1,25 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+
+.advertisement{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+header{
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#a-slip-under-the-microscope blockquote p{
+	text-align: center;
+}
