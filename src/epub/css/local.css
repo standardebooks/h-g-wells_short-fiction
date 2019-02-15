@@ -11,8 +11,8 @@ span[epub|type~="subtitle"]{
 }
 
 .advertisement{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 header{
@@ -22,4 +22,5 @@ header{
 
 #a-slip-under-the-microscope blockquote p{
 	text-align: center;
+	text-indent: 0;
 }
