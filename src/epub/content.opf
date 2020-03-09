@@ -55,7 +55,7 @@
 		<dc:source>https://archive.org/details/twelvestoriesand00well</dc:source>
 		<dc:source>https://archive.org/details/stolenbacillusan00welluoft</dc:source>
 		<meta property="se:production-notes">Don't let modernize-spelling change "girl friend" to "girlfriend" in "The Door in the Wall": "girlfriend" as one word has romantic associations which are inappropriate here.</meta>
-		<meta property="se:word-count">296461</meta>
+		<meta property="se:word-count">296465</meta>
 		<meta property="se:reading-ease.flesch">71.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Short_fiction</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_short-fiction</meta>
