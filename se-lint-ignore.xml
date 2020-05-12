@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="a-vision-of-judgment.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
+	<file path="mr-brishers-treasure.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
+	<file path="the-door-in-the-wall.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
+	<file path="the-flowering-of-the-strange-orchid.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
+	<file path="the-jilting-of-jane.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
+	<file path="the-magic-shop.xhtml">
+		<ignore>
+			<code>t-003</code>
+			<reason>Matched text is part of longer dialog.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
