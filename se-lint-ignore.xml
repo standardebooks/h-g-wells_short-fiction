@@ -18,12 +18,6 @@
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
-	<file path="the-flowering-of-the-strange-orchid.xhtml">
-		<ignore>
-			<code>t-003</code>
-			<reason>Matched text is part of longer dialog.</reason>
-		</ignore>
-	</file>
 	<file path="the-jilting-of-jane.xhtml">
 		<ignore>
 			<code>t-003</code>
