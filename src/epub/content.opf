@@ -48,13 +48,15 @@
 		<dc:source>https://www.gutenberg.org/ebooks/42989</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/12750</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/1743</dc:source>
+		<dc:source>http://www.gutenberg.net.au/ebooks06/0601951h.html</dc:source>
 		<dc:source>https://archive.org/details/countryofblindot00welluoft</dc:source>
 		<dc:source>https://archive.org/details/talesofspacetime00well</dc:source>
 		<dc:source>https://archive.org/details/plattnerstoryoth00wellrich</dc:source>
 		<dc:source>https://archive.org/details/twelvestoriesand00well</dc:source>
 		<dc:source>https://archive.org/details/stolenbacillusan00welluoft</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/000642318</dc:source>
 		<meta property="se:production-notes">Don't let modernize-spelling change "girl friend" to "girlfriend" in "The Door in the Wall": "girlfriend" as one word has romantic associations which are inappropriate here.</meta>
-		<meta property="se:word-count">296468</meta>
+		<meta property="se:word-count">298127</meta>
 		<meta property="se:reading-ease.flesch">71.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/H._G._Wells_bibliography#Stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_short-fiction</meta>
@@ -173,6 +175,7 @@
 		<item href="text/the-moth.xhtml" id="the-moth.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-new-accelerator.xhtml" id="the-new-accelerator.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-obliterated-man.xhtml" id="the-obliterated-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-pearl-of-love.xhtml" id="the-pearl-of-love.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-plattner-story.xhtml" id="the-plattner-story.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-purple-pileus.xhtml" id="the-purple-pileus.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-red-room.xhtml" id="the-red-room.xhtml" media-type="application/xhtml+xml"/>
@@ -251,6 +254,7 @@
 		<itemref idref="the-door-in-the-wall.xhtml"/>
 		<itemref idref="the-empire-of-the-ants.xhtml"/>
 		<itemref idref="the-beautiful-suit.xhtml"/>
+		<itemref idref="the-pearl-of-love.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
