@@ -30,4 +30,10 @@
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
+	<file path="the-triumphs-of-a-taxidermist.xhtml">
+		<ignore>
+			<code>t-074</code>
+			<reason>Matched text is not a sound.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
