@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="a-story-of-the-days-to-come.xhtml">
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="a-vision-of-judgment.xhtml">
 		<ignore>
 			<code>t-003</code>
