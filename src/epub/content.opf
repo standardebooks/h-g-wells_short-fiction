@@ -102,7 +102,7 @@
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-10">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-10">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-10">https://pgdp.net/</meta>
+		<meta property="se:url.homepage" refines="#transcriber-10">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Kenneth Williams</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
