@@ -168,6 +168,7 @@
 		<item href="text/the-flying-man.xhtml" id="the-flying-man.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-hammerpond-park-burglary.xhtml" id="the-hammerpond-park-burglary.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-jilting-of-jane.xhtml" id="the-jilting-of-jane.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-land-ironclads.xhtml" id="the-land-ironclads.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-lord-of-the-dynamos.xhtml" id="the-lord-of-the-dynamos.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-lost-inheritance.xhtml" id="the-lost-inheritance.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-magic-shop.xhtml" id="the-magic-shop.xhtml" media-type="application/xhtml+xml"/>
@@ -246,6 +247,7 @@
 		<itemref idref="the-new-accelerator.xhtml"/>
 		<itemref idref="filmer.xhtml"/>
 		<itemref idref="mr-skelmersdale-in-fairyland.xhtml"/>
+		<itemref idref="the-land-ironclads.xhtml"/>
 		<itemref idref="the-valley-of-spiders.xhtml"/>
 		<itemref idref="the-truth-about-pyecraft.xhtml"/>
 		<itemref idref="the-magic-shop.xhtml"/>
