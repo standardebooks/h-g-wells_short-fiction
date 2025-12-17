@@ -59,7 +59,7 @@
 		<dc:source>https://archive.org/details/sim_strand-magazine_1903-12_26_156</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000642318</dc:source>
 		<meta property="se:production-notes">Don't let modernize-spelling change "girl friend" to "girlfriend" in "The Door in the Wall": "girlfriend" as one word has romantic associations which are inappropriate here.</meta>
-		<meta property="se:word-count">306570</meta>
+		<meta property="se:word-count">306567</meta>
 		<meta property="se:reading-ease.flesch">71.44</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/H._G._Wells_bibliography#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_short-fiction</meta>
