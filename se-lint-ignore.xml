@@ -2,31 +2,37 @@
 <se-lint-ignore>
 	<file path="a-story-of-the-days-to-come.xhtml">
 		<ignore code="y-035">
+			<line>373</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="a-vision-of-judgment.xhtml">
 		<ignore code="t-003">
+			<line>79</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
 	<file path="mr-brishers-treasure.xhtml">
 		<ignore code="t-003">
+			<line>82</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
 	<file path="the-door-in-the-wall.xhtml">
 		<ignore code="t-003">
+			<line>78</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
 	<file path="the-jilting-of-jane.xhtml">
 		<ignore code="t-003">
+			<line>49</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
 	<file path="the-magic-shop.xhtml">
 		<ignore code="t-003">
+			<line>13</line>
 			<reason>Matched text is part of longer dialog.</reason>
 		</ignore>
 	</file>
